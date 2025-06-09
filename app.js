@@ -15,6 +15,6 @@ app.use(cors({
 app.use(express.json());
 app.use('/', contractRoutes);
 
-app.listen(3000, () => {
+app.listen(7000, () => {
   console.log('Server running on port 3000');
 });

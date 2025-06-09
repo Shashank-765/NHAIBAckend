@@ -16,7 +16,7 @@ async function getContract() {
     discovery: { enabled: true, asLocalhost: true },
   });
 
-  const network = await gateway.getNetwork('channel3');
+  const network = await gateway.getNetwork('mychannel1');
   return network.getContract('basic');
 }
 
