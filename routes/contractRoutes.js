@@ -4,7 +4,7 @@ const router = express.Router();
 const contractController = require('../controllers/contractController');
 
 // Batch creation
-router.post('/batch', contractController.createContractBatch);
+router.post('/api2/batch', contractController.createContractBatch);
 
 // Invoices
 router.post('/invoice/admin-to-agency', contractController.adminRaisesInvoiceToAgency);
